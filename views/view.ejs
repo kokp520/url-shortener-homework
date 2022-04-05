@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Url shortener</title>
+</head>
+
+<body>
+    <div text-align="center">
+        <h1>短網址產生器</h1>
+        <form action="/" method="POST">
+            <input required plcaeholder="網址" type="url" name="longurl">
+            <button>輸入</button>
+        </form>
+        <br/>
+        <br/>
+        <tr>
+            <td>
+                短網址:
+        </tr>
+        </td>
+        <table>
+            <% backurl.forEach(Url => { %>
+                <tr>
+                    <td>
+                        <a href="<%= Url.shortUrl %>">
+                            <%= Url.shortUrl %>
+                        </a>
+                    </td>
+                </tr>
+                <% })%>
+
+        </table>
+    </div>
+</body>
+
+</html>
