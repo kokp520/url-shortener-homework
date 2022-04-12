@@ -1,12 +1,6 @@
-# Dcard - Url shortener
+# Url shortener
 
 Url shortener created by Nodejs,ejs,MongoDB
-
-# 前言
-
-在先前的實習經驗中，為了優化公司內部的營運狀況，解決總部對於公司上的營運流程，利用python做了一個小小的project，可以簡化維修技師的施工流程，此事件之後引發我對於軟體學習的熱誠，以致在網路上搜尋有關軟體工程師的內容，看到Dcard後端實習生的面試機會，且實習中會有Mentor實際教導，並對此職位產生濃厚興趣，想藉由此次機會提升自己的Back-end能力。
-
-無論結果如何，都還是感謝Dcard給我一個目標去實作一個project!! :smile: 
 
 # How to work
 
@@ -226,7 +220,7 @@ test("New_Database_replace_old_Datebase", async function() {
              
 * 寫到中期的時候才開啟把有發生過錯誤的部分筆記下來，增加有疑慮部分的印象，前面有部分錯誤沒有被記下來，而是直接google找到解決辦法，有點可惜，關於PRNG的部分也可以研究一下shortid背後原理，對於之前無相關經驗的我來說要完成一個project也是蠻吃力的，同時也很開心可以了解到相關語法、資料結構、資料庫等內容。 
 
-* 再次感謝Dcard by Jim Wu
+
 
 
 
